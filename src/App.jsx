@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    <h1 className='text-center'>ToDo App</h1>
       <Todo />
     </>
   )

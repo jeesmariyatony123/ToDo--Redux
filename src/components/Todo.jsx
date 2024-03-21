@@ -59,7 +59,7 @@ const Todo = () => {
             </ul>
             <div className='pt-5 container'>
                 <ul>
-                <h1>Total Completed Items:{lengthis}</h1>
+                <h3>Total Completed Items: {lengthis}</h3>
                     {completed?.map((todo) => (
                         <div>
                             <li className="container px-5 d-flex justify-content-around py-4 "
